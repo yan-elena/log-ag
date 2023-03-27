@@ -9,13 +9,6 @@ import java.util.*;
 public class LoggerArch extends AgArch {
 
     @Override
-    public void act(ActionExec action) {
-        System.out.println("log: doing "+action);
-
-        super.act(action);
-    }
-
-    @Override
     public void reasoningCycleFinished() {
         if (getTS().getC().getAction() != null)  {
             System.out.println("log: doing "+getTS().getC().getAction().getActionTerm());
