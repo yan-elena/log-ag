@@ -24,13 +24,13 @@ public class Counter extends Artifact {
 		newValueArg.set(newValue);
 	}
 
-	@OPERATION void a1() { System.out.println("doing a1");	}
-	@OPERATION void a2() { System.out.println("doing a2");	}
-	@OPERATION void a3() { System.out.println("doing a3");	}
-	@OPERATION void a4() { System.out.println("doing a4");	}
-	@OPERATION void a5() { System.out.println("doing a5");	}
-	@OPERATION void a6() { System.out.println("doing a6");	}
-	@OPERATION void a7() { System.out.println("doing a7");	}
+	@OPERATION void a1() { System.out.println("done a1");	}
+	@OPERATION void a2() { System.out.println("done a2");	}
+	@OPERATION void a3() { System.out.println("done a3");	}
+	@OPERATION void a4() { System.out.println("done a4");	}
+	@OPERATION void a5() { System.out.println("done a5");	}
+	@OPERATION void a6() { System.out.println("done a6");	}
+	@OPERATION void a7() { System.out.println("done a7");	}
 
 }
 
