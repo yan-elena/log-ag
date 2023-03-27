@@ -15,5 +15,13 @@ public class LoggerArch extends AgArch {
         super.act(action);
     }
 
+    @Override
+    public void reasoningCycleFinished() {
+        if (getTS().getC().getAction() != null)  {
+            System.out.println("log: doing "+getTS().getC().getAction().getActionTerm());
+        }
+        //System.out.println("log:  "+getAgArchClassesChain());
+    }
+
     // TODO: see other methods from  AgArch to Override
 }
