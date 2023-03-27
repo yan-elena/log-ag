@@ -16,6 +16,8 @@ mas log_ag {
 
     agent bob {
       focus: w.c1 
+      ag-arch:     log.LoggerArch
+      ag-class:    log.LoggerAg
     }
 
     workspace w {
