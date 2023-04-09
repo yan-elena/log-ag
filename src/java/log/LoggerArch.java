@@ -20,7 +20,8 @@ public class LoggerArch extends AgArch {
     @Override
     public void reasoningCycleFinished() {
         if (getTS().getC().getAction() != null)  {
-            System.out.println("log: 2.doing "+getTS().getC().getAction().getActionTerm());
+            System.out.println("log: 2. " + getAgName() + " doing "+getTS().getC().getAction().getActionTerm() +
+                    " " + getTS().getC().getAction().getIntention());
         }
     }
 

@@ -1,5 +1,7 @@
 !g1.
+!g1.
 
++!g1 : count(X) <- a3; a3; a3.
 +!g1 : count(X) & X < 3  <- a1; !g2; a3.
 +!g1 : count(X) & X >= 3 <- a4; !g3.
 
